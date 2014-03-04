@@ -1,0 +1,234 @@
+{
+  "id": "108b42ad3591eda4acc585cce32f337e",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "108b42ad3591eda4acc585cce32f337e",
+      "creator": "",
+      "title": "Some thoughts on Climbing",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-02-25T15:47:29.022Z",
+      "updated_at": "2014-03-04T12:01:50.613Z",
+      "published_on": "2014-03-04T12:01:50.613Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text_8a94b1e6cf15237cd11a73d7a1cf1a4b",
+        "heading_f1270d98c1b78138197c9c9749b87088",
+        "0afaa8d251d44a88505ec7f584b02976",
+        "heading_a5732a20a0515266bbbb1118168dfb4c",
+        "713b4e4bb799bfab767fe9347f551d1a",
+        "heading_2fdf823b7787b4ba8b8b8eeb3e962c1c",
+        "57e72c572b7c52e54fcaef0616b31ead"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": [
+        "figure_d1a2eff6712948557f483e03fc261bf2",
+        "figure_68c7824db123ef53de2a6a05c0037e3d"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": [
+        "remark_e4275e18bb836defbeda43f6839b82da",
+        "remark_5dc3ba0f3029949ee2b05e694bfe4458"
+      ]
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": [
+        "error_d572653d02846d60a6f4b908a6530491"
+      ]
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "Ian Climber Mulvany",
+      "role": "author",
+      "organization": "ACME",
+      "image": "",
+      "email": "me@example.com"
+    },
+    "text_8a94b1e6cf15237cd11a73d7a1cf1a4b": {
+      "type": "text",
+      "id": "text_8a94b1e6cf15237cd11a73d7a1cf1a4b",
+      "source_id": "",
+      "content": ""
+    },
+    "heading_f1270d98c1b78138197c9c9749b87088": {
+      "type": "heading",
+      "id": "heading_f1270d98c1b78138197c9c9749b87088",
+      "source_id": "",
+      "content": "The climber",
+      "level": 1
+    },
+    "0afaa8d251d44a88505ec7f584b02976": {
+      "type": "text",
+      "id": "0afaa8d251d44a88505ec7f584b02976",
+      "source_id": "",
+      "content": "The climber is an odd person "
+    },
+    "heading_2fdf823b7787b4ba8b8b8eeb3e962c1c": {
+      "type": "heading",
+      "id": "heading_2fdf823b7787b4ba8b8b8eeb3e962c1c",
+      "source_id": "",
+      "content": "Circumstance",
+      "level": 1
+    },
+    "57e72c572b7c52e54fcaef0616b31ead": {
+      "type": "text",
+      "id": "57e72c572b7c52e54fcaef0616b31ead",
+      "source_id": "",
+      "content": "some words about circumstance  scipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores l"
+    },
+    "error_d572653d02846d60a6f4b908a6530491": {
+      "type": "error",
+      "id": "error_d572653d02846d60a6f4b908a6530491",
+      "title": "",
+      "description": "no error, just a comment.",
+      "creator": "Oliver Buchtala",
+      "created_at": "2014-02-25T15:57:05.860Z"
+    },
+    "remark_e4275e18bb836defbeda43f6839b82da": {
+      "type": "remark",
+      "id": "remark_e4275e18bb836defbeda43f6839b82da",
+      "title": "",
+      "description": "",
+      "creator": "Oliver Buchtala",
+      "created_at": "2014-02-25T15:57:39.217Z"
+    },
+    "remark_reference_0bbf9a172b74e97e6528e4d89bcecfe8": {
+      "type": "remark_reference",
+      "id": "remark_reference_0bbf9a172b74e97e6528e4d89bcecfe8",
+      "path": [
+        "0afaa8d251d44a88505ec7f584b02976",
+        "content"
+      ],
+      "range": [
+        18,
+        21
+      ],
+      "target": "remark_e4275e18bb836defbeda43f6839b82da"
+    },
+    "remark_5dc3ba0f3029949ee2b05e694bfe4458": {
+      "type": "remark",
+      "id": "remark_5dc3ba0f3029949ee2b05e694bfe4458",
+      "title": "",
+      "description": "another remark",
+      "creator": "Michael Aufreiter",
+      "created_at": "2014-02-25T15:57:56.028Z"
+    },
+    "remark_reference_3e2e87e35a8d6967463b3de416fe2a4a": {
+      "type": "remark_reference",
+      "id": "remark_reference_3e2e87e35a8d6967463b3de416fe2a4a",
+      "path": [
+        "57e72c572b7c52e54fcaef0616b31ead",
+        "content"
+      ],
+      "range": [
+        17,
+        29
+      ],
+      "target": "remark_5dc3ba0f3029949ee2b05e694bfe4458"
+    },
+    "heading_a5732a20a0515266bbbb1118168dfb4c": {
+      "type": "heading",
+      "id": "heading_a5732a20a0515266bbbb1118168dfb4c",
+      "source_id": "",
+      "content": "New Heading. ",
+      "level": 1
+    },
+    "713b4e4bb799bfab767fe9347f551d1a": {
+      "type": "text",
+      "id": "713b4e4bb799bfab767fe9347f551d1a",
+      "source_id": "",
+      "content": "scipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores l"
+    },
+    "text_fd4d3a176962481c5513c93241a9d631": {
+      "type": "text",
+      "id": "text_fd4d3a176962481c5513c93241a9d631",
+      "source_id": "",
+      "content": "happy out!"
+    },
+    "figure_d1a2eff6712948557f483e03fc261bf2": {
+      "type": "figure",
+      "id": "figure_d1a2eff6712948557f483e03fc261bf2",
+      "image": "figure_d1a2eff6712948557f483e03fc261bf2.png",
+      "image_url": "",
+      "label": "Figure 1",
+      "caption": "text_fd4d3a176962481c5513c93241a9d631"
+    },
+    "figure_d1a2eff6712948557f483e03fc261bf2.png": {
+      "type": "file",
+      "id": "figure_d1a2eff6712948557f483e03fc261bf2.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "text_91dde6c9a5b0c16b6cb1d5dfa2aab7b6": {
+      "type": "text",
+      "id": "text_91dde6c9a5b0c16b6cb1d5dfa2aab7b6",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_68c7824db123ef53de2a6a05c0037e3d": {
+      "type": "figure",
+      "id": "figure_68c7824db123ef53de2a6a05c0037e3d",
+      "image": "figure_68c7824db123ef53de2a6a05c0037e3d.png",
+      "image_url": "",
+      "label": "Figure 2",
+      "caption": "text_91dde6c9a5b0c16b6cb1d5dfa2aab7b6"
+    },
+    "figure_68c7824db123ef53de2a6a05c0037e3d.png": {
+      "type": "file",
+      "id": "figure_68c7824db123ef53de2a6a05c0037e3d.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "figure_reference_518a3615828d84aa50f1bdee082c1dc2": {
+      "type": "figure_reference",
+      "id": "figure_reference_518a3615828d84aa50f1bdee082c1dc2",
+      "path": [
+        "713b4e4bb799bfab767fe9347f551d1a",
+        "content"
+      ],
+      "range": [
+        251,
+        274
+      ],
+      "target": "figure_d1a2eff6712948557f483e03fc261bf2"
+    }
+  }
+}
